@@ -73,9 +73,9 @@ Below I would like to point out a few observations that I find interesting:
 ### Results and conclusions
 Unfortunately, I joined the competition too late (the deadline was less than two weeks away), so I was only interested in the overall quality of the approach and didn't invest much time in model tuning.
 
-I was able to get rather stable model quality:
+I was able to get rather stable model quality (without stacking):
 - training metric (MAE on individually normalized time series): 0.045 - 0.046
-- target metric (MAE on absolute values): 65-66. As a benchmark: first place (out of about 2200 teams) was just under 57-58.
+- target metric (MAE on absolute values): 64-66. As a benchmark: first place (out of about 2600 teams) was 57.5
 
 Due to limited time and computing resources, I could not afford to experiment with too many different architectures as well as hyperperparameters tuning. However, I believe the approach could have achieved better results, as well as be more effective in case of more balanced data. 
 
